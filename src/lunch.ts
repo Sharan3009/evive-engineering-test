@@ -1,10 +1,8 @@
 import { Meal } from "./meal";
 
 class Lunch extends Meal {
-
-    constructor(csids:string){
-        super(csids);
-        this.initComplementaryItems();
+    initSubstituteItems(): void {
+        this.substituteItems.set(3,"Water");
     }
 
     initItems(): void {
@@ -15,10 +13,6 @@ class Lunch extends Meal {
 
     initMultipleItems():void {
         this.multipleItems.add(2);
-    }
-
-    initComplementaryItems():void {
-        this.complementaryItems.set(3,"Water");
     }
 
 }

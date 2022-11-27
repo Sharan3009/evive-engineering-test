@@ -1,6 +1,9 @@
 import { Meal } from "./meal";
 
 class Dinner extends Meal {
+    initSubstituteItems(): void {
+        // no substite of dinner. Water is complementary
+    }
     constructor(csids:string){
         super(csids);
         this.appendMandatoryItems();

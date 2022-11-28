@@ -1,5 +1,8 @@
 # Evive-engineering-test
 
+# Language used
+- Typescript
+
 # System Requirements
 - Node.js LTS version
 - Verify using `node -v` and `npm -v`. Node version `18.12.0` recommended.
@@ -10,3 +13,4 @@
 
 # How to test
 - Run `npm test` in the project folder.
+- Test cases are present inside `__tests__` folder.

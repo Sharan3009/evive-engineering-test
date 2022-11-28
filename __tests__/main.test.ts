@@ -66,3 +66,9 @@ describe('Test case 11', () => {
         expect(main("Dinner 1,2,3")).toBe("Unable to process: Dessert is missing");
     });
 });
+
+describe('Test case 12', () => {
+    test('Brunch 1,2,3', () => {
+        expect(main("Brunch 1,2,3")).toBe("Wrong Meal Type");
+    });
+});

@@ -1,10 +1,9 @@
-import { Breakfast } from "./breakfast";
-import { Dinner } from "./dinner";
-import { Lunch } from "./lunch";
-import { Meal } from "./meal";
+import { Breakfast } from "./Class/Breakfast";
+import { Dinner } from "./Class/Dinner";
+import { Lunch } from "./Class/Lunch";
+import { Meal } from "./Class/Meal";
 
 export function main(str:string):string {
-
     let [type, ids] = str.split(" ");
     let obj:Meal;
     switch(type){

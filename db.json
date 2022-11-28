@@ -1,0 +1,61 @@
+{
+    "Breakfast": {
+        "1" : {
+            "type": "Main",
+            "name": "Eggs",
+            "required": true
+        },
+        "2" : {
+            "type": "Side",
+            "name": "Toast",
+            "required": true
+        },
+        "3" : {
+            "type": "Drink",
+            "name": "Coffee",
+            "default": "Water",
+            "multiple": true
+        }
+    },
+    "Lunch": {
+        "1" : {
+            "type": "Main",
+            "name": "Sandwich",
+            "required": true
+        },
+        "2" : {
+            "type": "Side",
+            "name": "Chips",
+            "required": true,
+            "multiple": true
+        },
+        "3" : {
+            "type": "Drink",
+            "name": "Soda",
+            "default": "Water",
+            "multiple": true
+        }
+    },
+    "Dinner": {
+        "1" : {
+            "type": "Main",
+            "name": "Steak",
+            "required": true
+        },
+        "2" : {
+            "type": "Side",
+            "name": "Potatoes",
+            "required": true
+        },
+        "3" : {
+            "type": "Drink",
+            "name": "Wine",
+            "complementary": "Water"
+        },
+        "4" : {
+            "type": "Dessert",
+            "name": "Cake",
+            "required": true
+        }
+    }
+}

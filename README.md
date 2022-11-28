@@ -3,6 +3,9 @@
 # Language used
 - Typescript
 
+# Branch used
+- master
+
 # System Requirements
 - Node.js LTS version
 - Verify using `node -v` and `npm -v`. Node version `18.12.0` recommended.
